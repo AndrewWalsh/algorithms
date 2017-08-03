@@ -31,7 +31,7 @@ const getData = new Promise((resolve, reject) => {
 	});
 });
 
-test('KargerMinCut does not mutate args', async t => {
+test('KargerMinCut returns correct result', async t => {
 	t.plan(1);
 
 	const data = await getData;
