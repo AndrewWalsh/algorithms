@@ -5,6 +5,7 @@ const quickSort = require('./lib/divide-and-conquer/quickSort');
 const kargerMinCut = require('./lib/divide-and-conquer/kargerMinCut');
 // Graphs
 const { scc } = require('./lib/graphs/stronglyConnectedComponents');
+const dijkstra = require('./lib/graphs/dijkstra');
 
 module.exports = {
   mergeSort,
@@ -13,4 +14,5 @@ module.exports = {
   kargerMinCut,
 
   scc,
+  dijkstra,
 };
